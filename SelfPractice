@@ -1,0 +1,35 @@
+package selfProgramming;
+
+public class MyResult {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double compS = 4  ;
+		double chem = 3.33 , chem2 = 2.67;
+		double Math = 3.33 , Math2 = 3.67;
+		double Phys = 3.67 , Phys2 = 4.0;
+
+		double gpa = (compS + chem + Math + Phys) / 4 ;
+		double gpa2 = (compS + chem2 + Math2 + Phys2) / 4 ;
+		double total = (gpa + gpa2) / 2;
+		
+	
+		
+		
+		
+		
+  		System.out.printf ("Matrikulasi Melaka" + "\n \tName : Azib Fikri Bin Mohd Suhaimi "
+  		                  + "\n\tAge : 19" + "\n\tNo Matriks : MS2011100607 "+ "\n\tCourse : Science Modul 2" 
+  				          + "\n\n Result Semester 1 \n" + "\t Computer Science - %.2f \n"
+  				          + "\t Chemistry - %.2f \n" + "\t Mathematics - %.2f \n" + "\t Physics - %.2f \n"
+  		                  + "total GPA for semester 1 : %.2f" + "\n\n Result Semester 2" 
+  				          + "\n \t Computer Science - %.2f" + "\n\t Chemistry - %.2f"
+  		                  + "\n\t Mathematics - %.2f " + "\n\t Physics - %.2f"
+  				          + "\nTotal GPA for semester 2 - %.2f "
+  		                  + "\n\n\t\t\tTotal CGPA for both Semester 1 and 2 - %.2f", 
+  		                  compS , chem , Math , Phys , gpa , compS , chem2 , Math2, Phys2, gpa2, total);
+  		
+	}
+
+}
